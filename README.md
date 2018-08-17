@@ -1,0 +1,2 @@
+- Simple brute-force approach to handle the bo2 series in TI. Runtime is ~= 3^N where N is the number of games.
+- 3^16 takes ~45 seconds on a single core i7
