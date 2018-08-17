@@ -101,15 +101,15 @@ ga = {
 }
 
 gb = {
-    'VGJS': 7,
-    'TNC': 6,
-    'VP': 5,
+    'VGJS': 9,
+    'VP': 7,
+    'TNC': 6,    
     'Newbee': 5,
-    'Vici': 4,
+    'Vici': 5,
+    'Optic': 4,
     'Secret': 4,
-    'Serenity': 3,
-    'Optic': 3,
-    'Pain': 3
+    'Pain': 4,
+    'Serenity': 4    
 }
 
 gam = [
@@ -128,10 +128,6 @@ gam = [
 ]
 
 gbm = [
-    ['Pain','Vici'],
-    ['Newbee','VP'],
-    ['TNC','VGJS'],
-    ['Optic','Serenity'],
     ['Pain','VP'],
     ['Newbee','VGJS'],
     ['Secret','Optic'],
@@ -146,4 +142,4 @@ gbm = [
     ['VP','VGJS']
 ]
 
-simulate(ga, gam)
+simulate(gb, gbm)
